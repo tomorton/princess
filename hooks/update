@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+             
+              $refname = ARGV[0]
+             
+              $oldrev  = ARGV[1]
+             
+              $newrev  = ARGV[2]
+             
+              $user    = ENV['USER']
+             
+              puts "Enforcing Policies..."
+             
+              puts "(#{$refname}) (#{$oldrev[0,6]}) (#{$newrev[0,6]})"
+ 
+
